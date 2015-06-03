@@ -2,7 +2,7 @@ steeve:admin-helpers
 ====================
 just a bunch of admin helpers
 
-isAdmin(userId) - returns boolean
+isAdmin(userId) - returns true or throws error
 ==========================
 Determines if Meteor.user().admin == true
 
