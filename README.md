@@ -11,7 +11,12 @@ Useful in publish and allow deny.
 Available: Server
 
 ````
-  var x =  isAdmin(378hshe8js);
-  console.log(x);
+  try{
+    var x =  isAdmin(378hshe8js);
+    console.log(x);
+    // true
+  }catch(e){
+    console.log(e);
+  }
 
 ````
